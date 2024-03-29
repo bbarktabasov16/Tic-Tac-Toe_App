@@ -46,14 +46,8 @@ body {
     border-right: none;
 }
 
-.bg {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 90px;
-    height: 40px;
+.turn-container #turn-box_X {
     background-color: #FF2E63;
-    z-index: -1;
 }
 
 .main-grid {
