@@ -18,10 +18,12 @@ boxes.forEach(e => {
 function changeTurn() {
     if (turn === "X") {
         turn = "O"
-        document.querySelector(".bg").style.left = "90px";
+        document.querySelector("#turn-box_O").style.backgroundColor = "#FF2E63"
+        document.querySelector("#turn-box_X").style.backgroundColor = "transparent"
     } else {
         turn = "X"
-        document.querySelector(".bg").style.left = "0";
+        document.querySelector("#turn-box_X").style.backgroundColor = "#FF2E63";
+        document.querySelector("#turn-box_O").style.backgroundColor = "transparent"
     }
 }
 
